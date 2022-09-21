@@ -31,8 +31,6 @@ class App extends Component {
   };
 
   render() {
-    console.log("render");
-
     const { monsters, searchField } = this.state;
     const { onSearchChange } = this;
     const filteredMonsters = monsters.filter((monster) => {
@@ -48,11 +46,7 @@ class App extends Component {
           onChange={onSearchChange}
         />
 
-        {filteredMonsters.map((monster) => {
-          return <h1>{monster.name}</h1>;
-        })}
-
-        <CardList />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }
