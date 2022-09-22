@@ -1,6 +1,4 @@
-# React Monsters Rolodex
-
-## About
+# Monsters Rolodex built using React
 
 Monsters Rolodex web app created using create react-app, react-class-components
 
