@@ -8,8 +8,8 @@ Monsters Rolodex web app created using create react-app, react-class-components
 
 
 ## Installation
-* `git clone https://github.com/aniruddhabagal/Monsters-Rolodex.git`
-* `cd Monsters-Rolodex`
+* `git clone https://github.com/aniruddhabagal/monsters-rolodex.git`
+* `cd monsters-rolodex`
 * `yarn`
 * `yarn start`
 
